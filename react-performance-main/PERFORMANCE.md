@@ -62,6 +62,7 @@
 
 ## Summary of Improvements
 
+**Render Duration**
 | Interaction      | Baseline (ms) | Optimized (ms) | Improvement |
 | ---------------- | ------------- | -------------- | ----------- |
 | Sort countries   | 282.9         | 50.9           | 82.0%       |
@@ -69,3 +70,12 @@
 | Change year      | 301.1         | 67.9           | 77.4%       |
 | Toggle column    | 303.2         | 18.7           | 93.8%       |
 | **Average**      | **254.4**     | **40.8**       | **84.0%**   |
+
+**INP**
+| Interaction      | Baseline (ms) | Optimized (ms) | Improvement |
+| ---------------- | ------------- | -------------- | ----------- |
+| Sort countries   | 3669          | 367            | 90.0%       |
+| Search countries | 1968          | 300            | 84.8%       |
+| Change year      | 3150          | 250            | 92.1%       |
+| Toggle column    | 1950          | 150            | 92.3%       |
+| **Average**      | **2684.3**    | **266.8**      | **90.1%**   |
