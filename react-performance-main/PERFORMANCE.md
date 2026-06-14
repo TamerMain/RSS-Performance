@@ -13,21 +13,21 @@
 
 - **Commit duration**: 1968 ms
 - **Render duration**: 130.5 ms
-- **Screenshot**: ![screenshot](/react-performance-main/performance-starter/screenshots/baseline/searchBefore.JPG)
+- **Screenshot**: ![screenshot](/react-performance-main/performance-starter/screenshots/baseline/searchBefore.jpg)
 - **ChromeDevTools**: ![screenshot](/react-performance-main/performance-starter/screenshots/baseline/searchINPBefore.JPG)
 
 ### Interaction C: Change year
 
 - **Commit duration**: ~3150 ms
 - **Render duration**: 301.1 ms
-- **Screenshot**: ![screenshot](/react-performance-main/performance-starter/screenshots/baseline/yearBefore.JPG)
+- **Screenshot**: ![screenshot](/react-performance-main/performance-starter/screenshots/baseline/yearBefore.jpg)
 - **ChromeDevTools**: ![screenshot](/react-performance-main/performance-starter/screenshots/baseline/yearINPBefore.JPG)
 
 ### Interaction D: Toggle column
 
 - **Commit duration**: ~1950 ms
 - **Render duration**: 303.2 ms
-- **Screenshot**: ![screenshot](/react-performance-main/performance-starter/screenshots/baseline/modalBefore.JPG)
+- **Screenshot**: ![screenshot](/react-performance-main/performance-starter/screenshots/baseline/modalBefore.jpg)
 - **ChromeDevTools**: ![screenshot](/react-performance-main/performance-starter/screenshots/baseline/modalINPBefore.JPG)
 
 ## Optimized Measurements
