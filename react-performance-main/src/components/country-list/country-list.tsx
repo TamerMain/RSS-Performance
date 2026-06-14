@@ -44,7 +44,6 @@ const CountryRow = ({
   );
 };
 
-
 export const CountryList = memo(
   ({
     countries,
@@ -93,6 +92,7 @@ export const CountryList = memo(
           rowCount={filteredCountries.length}
           rowHeight={rowHeight}
           rowProps={rowProps}
+          overscanCount={3}
         />
       </div>
     );
