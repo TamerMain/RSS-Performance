@@ -22,27 +22,25 @@ type RowProps = {
   selectedColumns: string[];
 };
 
-const CountryRow = ({
-  index,
-  style,
-  countries,
-  selectedYear,
-  selectedColumns,
-}: RowComponentProps<RowProps>) => {
-  const country = countries[index];
+const CountryRow = memo(
+  ({ index, style, countries, selectedYear, selectedColumns }: RowComponentProps<RowProps>) => {
+    const country = countries[index];
 
-  if (!country) return null;
+    if (!country) return null;
 
-  return (
-    <div style={style}>
-      <CountryCard
-        country={country}
-        selectedYear={selectedYear}
-        selectedColumns={selectedColumns}
-      />
-    </div>
-  );
-};
+    return (
+      <div style={style}>
+        <CountryCard
+          country={country}
+          selectedYear={selectedYear}
+          selectedColumns={selectedColumns}
+        />
+      </div>
+    );
+  }
+) as (props: RowComponentProps<RowProps>) => React.ReactElement | null;
+
+const ListContainerSize = { height: '100vh' };
 
 export const CountryList = memo(
   ({
