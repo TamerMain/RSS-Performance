@@ -84,7 +84,7 @@ export const CountryList = memo(
     );
 
     return (
-      <div className={styles.countryList} style={{ height: '100vh' }}>
+      <div className={styles.countryList} style={ListContainerSize}>
         <List
           rowComponent={CountryRow}
           rowCount={filteredCountries.length}
